@@ -10,6 +10,37 @@ body {
 .nav-logo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.logo-img {
+  width: 86.041px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.nav-title {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 147px;
+  height: 53px;
+}
+
+.nav-title h3 {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-weight: 700;
+}
+.Pink-text {
+  color: #ff42a5;
 }
 .nav-container {
   display: flex;
@@ -22,21 +53,16 @@ body {
   align-items: center;
 }
 
-nav a {
+.nav-menu a {
   text-decoration: none;
   color: #3c354f;
-}
-
-.nav-logo h3 {
   text-align: center;
   font-family: Work Sans;
-  font-size: 45px;
-  font-weight: 700;
-  color: #0b0223;
-  font-family: Work Sans;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 32px;
+  margin-top: 54px;
+  margin-bottom: 55px;
 }
-.Pink-text {
-  color: #ff42a5;
-}
+
 /* Footer styles */
