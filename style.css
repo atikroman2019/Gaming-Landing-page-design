@@ -45,14 +45,16 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-around;
-  border: 1px solid red;
+  align-items: center;
 }
 .nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
 }
-
 .nav-menu a {
   text-decoration: none;
   color: #3c354f;
@@ -68,19 +70,25 @@ body {
   height: 56px;
   border: none;
   border-radius: 8px;
-  text-align: center;
   color: #0b0223;
 }
 .btn-text {
   color: #3c354f;
-  text-align: center;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 24px;
+  height: 21px;
+  width: 116px;
+}
+.social-icons {
   margin-top: 16px;
-  margin-bottom: 18px;
-  height: 21px;px;
-  width: 116px ;
+  margin-bottom: 16px;
+  margin-right: 24px;
+  float: right;
+}
+.youtube {
 }
 
 /* Footer styles */
+
+.banner-main {
+}
