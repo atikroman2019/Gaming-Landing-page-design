@@ -125,13 +125,13 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid tomato;
+  margin-right: 250px;
 }
 .banner-main {
   background-image: url(./images/Group\ 14.png);
   width: 900px;
   height: 700px;
-  border: 1px solid salmon;
+  margin-right: 250px;
 }
 .banner-text {
   margin: 148px 305px 148px 244px;
