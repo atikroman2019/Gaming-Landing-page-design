@@ -11,6 +11,8 @@ body {
   position: relative;
   display: inline-block; /* or block if you want it to be a block-level element */
 }
+.img {
+}
 p {
   color: white;
 }
@@ -80,6 +82,7 @@ p {
   color: #3c354f;
   font-size: 18px;
   font-weight: 500;
+  margin-left: 250px;
 }
 .nav-menu a {
   text-decoration: none;
@@ -92,6 +95,9 @@ p {
   margin-bottom: 55px;
 }
 .nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 262px;
   height: 56px;
   border: none;
@@ -108,10 +114,10 @@ p {
 .social-icons {
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-right: 24px;
   float: right;
 }
 .youtube {
+  margin-right: 16px;
 }
 
 /* banner styles */
