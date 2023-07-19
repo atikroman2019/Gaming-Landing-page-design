@@ -156,9 +156,46 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-ul li {
-  list-style: none;
-  text-align: left;
+.instant-play {
+  display: flex;
+  align-items: center;
+}
+.instant-play {
+  display: flex;
+  align-items: center;
+}
+.instant-play {
+  display: flex;
+  align-items: center;
+}
+.instant {
+  color: #534c64;
+  margin-left: 10px;
+}
+.signup {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background-color: #f948b2;
+  border: none;
+  margin-top: 40px;
+  margin-right: 40px;
+  color: white;
+}
+.rogue {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: none;
+  color: white;
+}
+.banner-img {
+  margin-left: 10px;
 }
 
 /* section styles */
