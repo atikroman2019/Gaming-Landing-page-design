@@ -88,7 +88,43 @@ body {
 .youtube {
 }
 
-/* Footer styles */
-
+/* banner styles */
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid tomato;
+}
 .banner-main {
+  background-image: url(./images/Group\ 14.png);
+  width: 900px;
+  height: 700px;
+  border: 1px solid salmon;
+}
+.banner-text {
+  margin: 148px 305px 148px 244px;
+  text-align: center;
+}
+.play-like {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 348px;
+  height: 56px;
+}
+.banner-title {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul li {
+  list-style: none;
+  text-align: left;
 }
