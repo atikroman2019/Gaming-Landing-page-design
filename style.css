@@ -7,12 +7,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-.image-container {
-  position: relative;
-  display: inline-block; /* or block if you want it to be a block-level element */
-}
-.img {
-}
+
 p {
   color: white;
 }
@@ -197,7 +192,84 @@ p {
 .banner-img {
   margin-left: 10px;
 }
+/* Online Games Style */
+.online-games-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 120px;
+}
+.online-games-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.funny {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.title-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.image-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1 {
+  margin-right: 24px;
+}
+.img2 {
+  margin-right: 24px;
+}
+.img3 {
+  margin-right: 24px;
+}
 
+.img1-details {
+  color: #534c64;
+  font-size: 20px;
+  width: 342px;
+  text-align: center;
+  font-weight: 500;
+}
+.img2-details {
+  color: #534c64;
+  font-size: 20px;
+  width: 342px;
+  text-align: center;
+  font-weight: 500;
+}
+.img3-details {
+  color: #534c64;
+  font-size: 20px;
+  width: 342px;
+  text-align: center;
+  font-weight: 500;
+}
+.img4-details {
+  color: #534c64;
+  font-size: 20px;
+  width: 342px;
+  text-align: center;
+  font-weight: 500;
+}
 /* section styles */
 .relative-btn-container {
   display: grid;
