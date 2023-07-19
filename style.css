@@ -2,10 +2,37 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
 body {
   font-family: "Open Sans", sans-serif;
 }
+.image-container {
+  position: relative;
+  display: inline-block; /* or block if you want it to be a block-level element */
+}
+p {
+  color: white;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-image: url("./images/icons8-play-30.png"); /* Replace with your play icon image */
+  background-size: cover;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.image-container:hover .play-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* nav related styles */
 .nav-logo {
   display: flex;
@@ -21,7 +48,6 @@ body {
 }
 .nav-title {
   text-align: center;
-  font-family: Work Sans;
   font-size: 45px;
   font-weight: 700;
   margin-top: 40px;
@@ -127,4 +153,53 @@ body {
 ul li {
   list-style: none;
   text-align: left;
+}
+
+/* section styles */
+.relative-btn-container {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+}
+
+/* Footer styles */
+/* footer {
+  height: 636px;
+  width: 1920px;
+  background-color: #0b0223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer-link-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.footer-links {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+} */
+.footer-container {
+  background-color: #0b0223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-links-container {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
