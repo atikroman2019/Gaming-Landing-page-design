@@ -1,0 +1,18 @@
+.itemsContainer {
+  background: red;
+  float: left;
+  position: relative;
+}
+.itemsContainer:hover .play {
+  display: block;
+}
+.play {
+  position: absolute;
+  display: none;
+  top: 20%;
+  width: 40px;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}

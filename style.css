@@ -133,13 +133,13 @@ body {
   display: flex;
   align-items: center;
 }
-.instant-play {
-  display: flex;
-  align-items: center;
+.play-btn {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
-.instant-play {
-  display: flex;
-  align-items: center;
+.users {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .instant {
   color: #534c64;
@@ -249,6 +249,8 @@ body {
   width: 342px;
   text-align: center;
   font-weight: 500;
+}
+.play {
 }
 .img-design:hover {
   background-color: #000000;
