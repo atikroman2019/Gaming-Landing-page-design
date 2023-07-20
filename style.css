@@ -419,6 +419,7 @@ span {
   border-radius: 50px;
   margin-bottom: 120px;
   margin-top: 30px;
+  margin-left: 80px;
   background: #fff;
   border: none;
 }
@@ -431,6 +432,7 @@ span {
   border-radius: 50px;
   background: #fff;
   margin-bottom: 120px;
+  margin-left: 80px;
   margin-top: 30px;
   border: none;
 }
@@ -476,11 +478,9 @@ footer {
 }
 
 .footer-icon-container {
-  text-align: left;
-  margin-left: 700px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
-/* .facebook {
+.facebook {
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -492,7 +492,7 @@ footer {
 }
 .youtube {
   margin-right: 40px;
-} */
+}
 
 .footer-policy-container {
   margin-top: 70px;
