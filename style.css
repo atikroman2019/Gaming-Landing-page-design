@@ -317,9 +317,8 @@ span {
 /* relative button styles */
 .relative-btn-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 300px);
   height: 427px;
-  border: 1px solid saddlebrown;
   margin-top: 350px;
   background: linear-gradient(
     90deg,
@@ -459,6 +458,11 @@ footer {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
+  margin-top: 120px;
+}
+.footer-img {
+  margin-top: 120px;
+  margin-right: 20px;
 }
 .footer-link-container {
   margin-top: 100px;
